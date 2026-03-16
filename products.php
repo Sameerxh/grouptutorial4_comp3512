@@ -9,9 +9,9 @@ $products = [
 ];
 
 //Check if user clicked "Add to cart"
-if (isser($_GET['item'])) {
+if (isset($_GET['item'])) {
     $itemName = $_GET['item'];
-    $itemPrice = $products[itemName];
+    $itemPrice = $products[$itemName];
 
     $_SESSION['cart'][] = ["name" => $itemName, "price" => $itemPrice];
 
