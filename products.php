@@ -32,11 +32,11 @@ if (isset($_GET['item'])) {
             ?>
             <p> 
                 <?php echo $name; ?> - $<?php echo $price; ?>
-                <a href = products.php?item=<?php echo $name; ?>">Add to Cart</a>"
+                <a href="products.php?item=<?php echo $name; ?>">Add to Cart</a>"
             </p>
     <?php } ?>
 
-        <p>a href="cart.php">View Cart</a></p>
+        <p><a href="cart.php">View Cart</a></p>
 </body>
 </html>
     
