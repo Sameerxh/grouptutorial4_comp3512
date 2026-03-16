@@ -27,5 +27,17 @@ session_start();
             echo "<td>$" . $item['price'] . "</td>";
             echo "</tr>";
 
+            $total = $total + $item['price'];
         }
+
+        echo "</table>";
+
+        // Show total
+
+        echo "<h3>Total: $" . $total . "</h3>";
     }
+    ?>
+
+    <p><a href="products.php">Continue Shopping</a></p>
+</body>
+</html>
