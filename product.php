@@ -36,6 +36,9 @@ if (isser($_GET['item'])) {
             </p>
     <?php } ?>
 
+        <p>a href="cart.php">View Cart</a></p>
+</body>
+</html>
     
 
-        }
+        
